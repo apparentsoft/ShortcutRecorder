@@ -1002,6 +1002,208 @@
 			};
 			name = Release;
 		};
+		16494FA01B508FB6000A8572 /* MAS Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = ssse3;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "MAS Debug";
+		};
+		16494FA11B508FB6000A8572 /* MAS Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2.6;
+				DYLIB_CURRENT_VERSION = 2.12;
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Library/Prefix.pch;
+				INFOPLIST_FILE = Library/Info.plist;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = ShortcutRecorder;
+				PROVISIONING_PROFILE = "";
+			};
+			name = "MAS Debug";
+		};
+		16494FA21B508FB6000A8572 /* MAS Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.2;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = PTHotKey/Info.plist;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = PTHotKey;
+			};
+			name = "MAS Debug";
+		};
+		16494FA31B508FB6000A8572 /* MAS Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demo/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "MAS Debug";
+		};
+		16494FA41B508FBE000A8572 /* MAS Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = ssse3;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "MAS Release";
+		};
+		16494FA51B508FBE000A8572 /* MAS Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2.6;
+				DYLIB_CURRENT_VERSION = 2.12;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Library/Prefix.pch;
+				INFOPLIST_FILE = Library/Info.plist;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = ShortcutRecorder;
+				PROVISIONING_PROFILE = "";
+			};
+			name = "MAS Release";
+		};
+		16494FA61B508FBE000A8572 /* MAS Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.2;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = PTHotKey/Info.plist;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = PTHotKey;
+			};
+			name = "MAS Release";
+		};
+		16494FA71B508FBE000A8572 /* MAS Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demo/Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "MAS Release";
+		};
 		939837820DA42965007F53F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1140,7 +1342,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D6B2494180304DF00CE1142 /* Debug */,
+				16494FA31B508FB6000A8572 /* MAS Debug */,
 				0D6B2495180304DF00CE1142 /* Release */,
+				16494FA71B508FBE000A8572 /* MAS Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1149,7 +1353,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				939837820DA42965007F53F3 /* Debug */,
+				16494FA11B508FB6000A8572 /* MAS Debug */,
 				939837830DA42965007F53F3 /* Release */,
+				16494FA51B508FBE000A8572 /* MAS Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1158,7 +1364,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
+				16494FA01B508FB6000A8572 /* MAS Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				16494FA41B508FBE000A8572 /* MAS Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1167,7 +1375,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E27312361349EC9000A84433 /* Debug */,
+				16494FA21B508FB6000A8572 /* MAS Debug */,
 				E27312371349EC9000A84433 /* Release */,
+				16494FA61B508FBE000A8572 /* MAS Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
